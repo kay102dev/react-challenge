@@ -1,0 +1,58 @@
+.contact-form-component {
+  h2.heading {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  .heading-2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0;
+    text-align: left;
+    height: 60px;
+  }
+
+  .submitted-survey-table {
+    h2.heading {
+      min-height: 125px;
+    }
+
+    .star {
+      font-size: 16px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  label {
+    .what-we-do-component .regular {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: 0;
+      text-align: left;
+    }
+  }
+
+  .star {
+    font-size: 30px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .selected {
+    color: orange;
+  }
+}
+
+.form-select.is-invalid:not([multiple]):not([size]) {
+  background-size: 18px !important;
+}

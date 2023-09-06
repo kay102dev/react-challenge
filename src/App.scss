@@ -1,0 +1,27 @@
+/**
+ * Notes: Importing bootstrap at the top of this entry file before other css files ensures
+ * that the custom app css files will take precedence over the bootstrap's style
+ */
+
+// override default boostrap styling configuration
+$theme-colors: (
+        "primary": #70259B,
+) !default;
+
+// override default boostrap container-max-widths as per
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1140px,
+        xxl: 1440px
+) !default;
+
+// Override default variable overrides
+$font-family-sans-serif: 'Inter', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans",
+"Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "src/assets/scss/global";
+

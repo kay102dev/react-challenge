@@ -1,0 +1,25 @@
+.header-component {
+  .navbar-expand-lg {
+    max-height: 80px;
+
+    .mr-6 {
+      margin-right: 6rem !important;
+    }
+
+    .px-6 {
+      padding-right: 6rem !important;
+      padding-left: 6rem !important;
+    }
+
+    .nav-link,
+    .nav-link.active {
+      color: var(--bs-white) !important;
+      // styleName: body/Bold/14;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 21px;
+      letter-spacing: 0;
+      text-align: left;
+    }
+  }
+}

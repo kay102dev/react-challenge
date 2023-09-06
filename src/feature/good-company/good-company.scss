@@ -1,0 +1,14 @@
+.good-company-component {
+  h2.heading {
+    //styleName: heading/is-1;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  .gap-5-custom {
+    gap: 5rem !important;
+  }
+}

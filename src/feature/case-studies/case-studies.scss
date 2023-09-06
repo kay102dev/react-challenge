@@ -1,0 +1,41 @@
+.case-studies-component {
+  .case-studies {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 240px !important;
+    height: 400px;
+    width: 90%;
+    box-shadow: 0 8px 16px 0 #3636361A;
+
+    .heading {
+      //styleName: heading/is-3;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 38px;
+      letter-spacing: 0;
+      text-align: left;
+
+      &:before {
+        content: "";
+        display: block;
+        background: #D100C9;
+        margin-bottom: 12px;
+        margin-right: 20px;
+
+        width: 40px;
+        height: 4px;
+        top: 1600px;
+        left: 80px;
+      }
+    }
+
+    .description {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0;
+      text-align: left;
+    }
+  }
+}
